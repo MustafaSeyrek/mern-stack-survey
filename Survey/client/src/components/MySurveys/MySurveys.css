@@ -1,0 +1,77 @@
+.my-surveys-wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.my-surveys-wrapper .body {
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+}
+
+.my-surveys-wrapper .header-top {
+    font-size: 2em;
+    font-weight: 500;
+    padding: 40px 0 0 40px;
+}
+
+.my-surveys-wrapper .surveys-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card {
+    margin-top: 40px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card .top-section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #00000080;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card .top-section > div {
+    display: flex;
+    align-items: center;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card .top-section img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card img {
+    object-fit: contain;
+        
+    width: 18vw;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card .survey-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card .take-survey {
+    width: 50%;
+    margin-top: 20px;
+    margin: 20px auto 0;
+    color: white;
+}
+
+.my-surveys-wrapper .surveys-wrapper .survey-card .questions {
+    margin: 2px 0;
+}
